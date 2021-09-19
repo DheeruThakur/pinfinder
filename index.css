@@ -1,0 +1,81 @@
+body {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100%;
+ width: 100%;
+ background-image: url("https://source.unsplash.com/collection/190727/1600x900");
+}
+
+.card {
+ margin: 0;
+ position: absolute;
+ background: rgb(50, 50, 50);
+ top: 30%;
+ width: 30vw;
+ height: 30vh;
+ opacity: 0.9;
+ border-radius: 5em;
+}
+
+.search {
+ position: absolute;
+ left: 24%;
+ margin-top: 10%;
+}
+
+.location {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 1.5em;
+ margin-left: 1em;
+ color: white;
+}
+
+.searchbar {
+ height: 2.3em;
+ width: 15em;
+ border-radius: 10px;
+ padding-left: 1em;
+ outline: none;
+ border-style: none;
+ background: rgb(22, 21, 21);
+ color: white;
+}
+
+.button {
+ height: 2.4em;
+ width: 2.5em;
+ margin: 2px;
+ border-radius: 10px;
+ outline: none;
+ border-style: none;
+ background: rgb(22, 21, 21);
+ color: white;
+}
+
+#district {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 1em;
+ color: white;
+ margin-left: 3%;
+}
+
+#region {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 13em;
+ height: 2em;
+ margin-top: 7em;
+ margin-left: 10em;
+ border-radius: 10px;
+ padding-left: 1em;
+ outline: none;
+ border-style: none;
+ background: rgb(22, 21, 21);
+ color: white;
+}
